@@ -1,2 +1,4 @@
 myfile = open('test.txt')
-print(myfile)
+myfile.seek(0)
+print(myfile.read())
+print(myfile.readlines())

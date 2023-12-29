@@ -1,5 +1,10 @@
 myfile = open('test.txt')
 myfile.seek(0)
-print(myfile.read())
-print(myfile.readlines())
-print(myfile.close())
+# print(myfile.read())
+# print(myfile.readlines())
+# print(myfile.close())
+
+condition1 = ('h'== 'H' and 2 == 2)
+condition2 = ('h'== 'H' or 2==2 )
+print(condition1)
+print(condition2)

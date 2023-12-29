@@ -1,10 +1,8 @@
-my_iterable  = [1,2,3,4,5,6,7,8,9,10]
-
-for item_name in my_iterable:
-    print(item_name)
-    
-#check for even
-print("Below givens are for even numbers")
+# Check for even
+print("Below given are for even numbers")
+my_iterable = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
 for num in my_iterable:
     if num % 2 == 0:
-        print(num)
+        print(f'Even number: {num}')
+    else:
+        print(f'Odd number: {num}')

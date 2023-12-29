@@ -4,6 +4,6 @@ print(d)
 mylist = d['key1']
 print(mylist)
 
-#hHow to convert into upper 
+#How to convert into upper 
 letter = mylist[2].upper()
 print(letter)

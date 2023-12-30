@@ -10,7 +10,7 @@ list_sum = 0
 
 for num in my_iterable:
     list_sum = list_sum + num
-    print(list_sum)
+    # print(list_sum)
     
 mylist = [(1,2),(3,4),(5,6),(6,7)]
 
@@ -18,3 +18,8 @@ print(len(mylist))
 
 for item in mylist:
     print(item)
+# Individual element access in a list
+
+for (a,b) in mylist:
+    print(a)
+    print(b)

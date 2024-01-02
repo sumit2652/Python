@@ -19,3 +19,8 @@ for letter in myname:
     if letter == 'a':
         continue
     print(letter)
+
+mylist = [1,2,3]
+
+for num in range (10):
+    print(num)
